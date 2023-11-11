@@ -1,0 +1,76 @@
+.table2{
+/* background-color: red; */
+width: 80%;
+margin: auto;
+margin-top: 25px;
+}
+
+
+table{
+    margin: 0 auto; /*to center my table inside my div*/
+    width: 65%;
+    font-size: 20px;
+}
+
+table, th, td{
+    /* background-color: blue; */
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: #ddd;
+    text-align: center;
+}
+
+
+/* styling the width of the name, course code and course area */
+.fullname{
+    /* background-color: green; */
+    width: 43%;
+}
+
+.passcode{
+    width: 18%;
+}
+
+.course{
+    /* background-color: blue; */
+    width: 35%;
+}
+
+
+/* styling the cells of table head(th) and table data of cells(td) */
+td, th {
+    padding: 10px;
+    
+}
+
+
+td{
+    /* background-color: rosybrown; */
+    cursor: pointer;
+}
+
+
+/* styling the header of my table alone */
+th{
+    background-color: dodgerblue;
+    color: white;
+}
+
+caption{
+    /* background-color: pink; */
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+
+/* styling my table row data to note even numbers */
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+
+/* hover style */
+tr:hover{
+    background-color: darkgray;
+    transition: 0.15s;
+}
