@@ -1,0 +1,140 @@
+.table1{
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    }
+    
+    
+    table{
+        margin: 0 auto; /*to center my table inside my div*/
+        width: 70%;
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    table, th, td{
+        /* background-color: blue; */
+        border-bottom: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    
+    
+    /* styling the width of the name,score, grade, course code and course area */
+    .fullname{
+        /* background-color: green; */
+        width: 38%;
+    }
+    
+    .passcode{
+        width: 18%;
+    }
+    
+    .course{
+        /* background-color: blue; */
+        width: 28%;
+    }
+
+    .score{
+        width: 30%;
+    }
+
+    .excellent, .average, .good{
+        /* background-color: red; */
+        text-align: left;
+    }
+    
+    
+    /* styling the cells of table head(th) and table data of cells(td) */
+    td, th {
+        padding: 10px;
+        
+    }
+    
+    
+    td{
+        /* background-color: rosybrown; */
+        cursor: pointer;
+    }
+    
+    
+    /* styling the header of my table alone */
+    th{
+        background-color: dodgerblue;
+        color: white;
+    }
+    
+    caption{
+        /* background-color: pink; */
+        margin-bottom: 5px;
+        font-size: 22px;
+    }
+    
+    
+    
+    /* hover style */
+    tr:hover{
+        background-color: lightblue;
+        transition: 0.15s;
+    }
+
+
+
+    /* styling my icons the check and X-mark */
+    span, .check i{
+        background-color: green;
+        color: white;
+        font-size: 15px;
+    }
+
+
+    span, .xmark i{
+        background-color: red;
+        color: white;
+    }
+
+
+
+
+    /* styling the grade section of excellent, good and average  with their hover style*/
+
+    .excellent:hover{
+        background-color: green;
+        /* display: inline-block; */
+        padding: 4px;
+        color: white;
+        transition: 0.15s; /*to have a little faded effect when it is hovered on*/
+        opacity: 0.7;
+        font-size: 22px;
+    }
+
+
+    /* .good{
+        background-color: yellow;
+        display: inline-block;
+        color: white;
+    } */
+
+    .good:hover{
+        background-color: yellow;
+        /* display: inline-block; */
+        color: white;
+        padding: 4px 18px;
+        transition: 0.15s; /*to have a little faded effect when it is hovered on*/
+        opacity: 0.7;
+        font-size: 20px;
+    }
+    
+
+
+    .average:hover{
+        background-color: red;
+        /* display: inline-block; */
+        color: white;
+        transition: 0.15s; /*to have a little faded effect when it is hovered on*/
+        opacity: 0.7;
+        padding: 4px 9px;
+        font-size: 20px;
+    }
